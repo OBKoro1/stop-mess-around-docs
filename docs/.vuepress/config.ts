@@ -9,7 +9,7 @@ import {
 // 参考vuepress文档
 export default defineUserConfig({
   // set site base to default value
-  base: '/',
+  base: '/stop-mess-around-docs/',
   // extra tags in `<head>`
   locales: {
     '/': {
