@@ -6,7 +6,12 @@ import {
   sidebarZh
 } from './configs/index'
 // TODO: https://github1s.com/vuepress/vuepress-next/blob/HEAD/docs/.vuepress/configs/head.ts
-// 参考vuepress文档
+// 参考vuepress文档配置
+
+// TODO: vuepress 公告插件
+// https://vuepress-theme-reco.recoluan.com/views/1.x/
+
+
 export default defineUserConfig({
   // set site base to default value
   base: '/stop-mess-around-docs/',
@@ -38,8 +43,8 @@ export default defineUserConfig({
         sidebar: sidebarZh,
         navbar: navbarZh,
         selectLanguageName: '简体中文',
-        // TODO: repo
-        // repo: 'obkoro1LinCause/stop-mess-around-docs',
+        // TODO: repo 是否要改为中国码云
+        repo: 'obkoro1LinCause/stop-mess-around-docs',
       },
     },
   }),
