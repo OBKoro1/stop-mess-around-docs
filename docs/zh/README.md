@@ -2,13 +2,13 @@
 home: true
 heroImage: /images/logo.jpg
 title: stop-mess-around 效率插件
-actions:
-  - text: 快速上手
-    link: /zh/guide/getting-started/
-    type: primary
-  - text: 项目简介
-    link: /zh/guide/
-    type: secondary
+actionText: 快速上手
+actionLink: /zh/guide/getting-started/
+actionType: primary
+#   - 
+#   - actionText: 项目简介
+#     actionLink: /zh/guide/
+#     actionType: secondary
 features:
 - title: 效率
   details: 细节

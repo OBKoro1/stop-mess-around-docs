@@ -3,7 +3,7 @@ home: true
 heroImage: /images/logo.jpg
 title: stop-mess-around plugin
 actions:
-  - text: 快速上手
+  - text: 快速上手 →
     link: /guide/getting-started/
     type: primary
   - text: 项目简介
@@ -38,4 +38,3 @@ footer: MIT Licensed | Copyright © 2018-present OBKoro1
 
     [H5 notification浏览器桌面通知](https://github.com/OBKoro1/notification-Koro1): 浏览器桌面弹窗
 * [关于](/about.html)
-

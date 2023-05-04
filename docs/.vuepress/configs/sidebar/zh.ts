@@ -1,13 +1,10 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
-
-export const sidebarZh: SidebarConfig = {
-  '/zh/guide/': [
-    {
-      text: '指南',
-      children: [
-        '/zh/guide/README.md',
-        '/zh/guide/getting-started.md',
-      ],
-    },
-  ],
-}
+export const sidebarZh = [
+  {
+    title: '指南',   // 必要的
+    collapsable: false,  
+    children: [
+      '/zh/guide/',
+      '/zh/guide/getting-started.md'
+    ],
+  }
+]

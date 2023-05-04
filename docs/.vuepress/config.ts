@@ -1,21 +1,15 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import {defineConfig} from 'vuepress/config'
+
 import {
   navbarEn,
   navbarZh,
   sidebarEn,
   sidebarZh
 } from './configs/index'
-// TODO: https://github1s.com/vuepress/vuepress-next/blob/HEAD/docs/.vuepress/configs/head.ts
-// 参考vuepress文档配置
-
-// TODO: vuepress 公告插件
-// https://vuepress-theme-reco.recoluan.com/views/1.x/
 
 
-export default defineUserConfig({
-  // set site base to default value
+export default defineConfig({
   base: '/stop-mess-around-docs/',
-  // extra tags in `<head>`
   locales: {
     '/': {
       lang: 'en-US',
@@ -30,22 +24,50 @@ export default defineUserConfig({
   },
   markdown: {
   },
-  theme: defaultTheme({
+  themeConfig:{
+    // repo:'',
     locales: {
       '/': {
-        navbar: navbarEn,
+        selectText:'English',
+        searchPlaceholder:'search...',
+        nav:navbarEn,
         sidebar: sidebarEn,
         // TODO: repo
         repo: 'obkoro1LinCause/stop-mess-around-docs',
-        selectLanguageName: 'English',
       },
       '/zh/': {
+        selectText:'简体中文',
+        searchPlaceholder:'请搜索...',
+        nav:navbarZh,
         sidebar: sidebarZh,
-        navbar: navbarZh,
-        selectLanguageName: '简体中文',
         // TODO: repo 是否要改为中国码云
         repo: 'obkoro1LinCause/stop-mess-around-docs',
+
       },
     },
-  }),
-})
+  },
+  plugins:[
+    [require('./configs/plugins/index'),{
+        title: "消息提示",
+        body: [
+          {
+            type: "title",
+            content: "欢迎加入QQ交流群 🎉🎉🎉",
+            style: "text-aligin: center",
+          },
+          {
+            type: "image",
+            src: "https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG",
+  
+          },
+        ],
+        footer: [
+          {
+            type: "button",
+            text: "打赏",
+            link: "/",
+          },
+        ]
+    }],
+  ],
+});
