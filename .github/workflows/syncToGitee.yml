@@ -13,7 +13,9 @@ jobs:
           account_type: org
           src: 'github/OBKoro1'
           dst: 'gitee/OBKoro1'
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          # dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          # Github rsa文件
+          dst_key: ${{ secrets.PRIVATE_KEY_RSA_GITHUB }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
           force_update: true
           debug: true
