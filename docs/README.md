@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/logo.jpg
+heroImage: /images/en-logo.svg
 title: stop-mess-around plugin
 actions:
   - text: 快速上手 →

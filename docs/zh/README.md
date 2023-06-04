@@ -1,41 +1,29 @@
 ---
 home: true
-heroImage: /images/logo.jpg
+heroImage: /images/cn-logo.svg
 title: stop-mess-around 效率插件
 actionText: 快速上手
 actionLink: /zh/guide/getting-started/
 actionType: primary
-#   - 
-#   - actionText: 项目简介
-#     actionLink: /zh/guide/
-#     actionType: secondary
 features:
-- title: 效率
-  details: 细节
-- title: 节省时间
-  details: 细节
-- title: 节省时间
-  details: 细节
-footer: MIT Licensed | Copyright © 2018-present OBKoro1
+
+- title: 丰富的瞎逛网站
+  details: 插件内置丰富的瞎逛网站，比如知乎，微博，直播网站等，零配置使用，瞎逛网站还可以由您自定义，插件提供了配置界面让您可以轻松新增编辑删除，满足您多样化的效率需求。
+
+- title: 工作学习分心瞎逛网站，被提醒
+  details: 当您工作学习走神分心打开瞎逛网站时，将会有弹窗提示您正在浏览瞎逛网页，弹窗中会展示一段励志的加油提示，为您加油打气提示自己，这个加油提示可自行编辑。
+
+- title: 培养工作学习不瞎逛网站的习惯
+  details: 以诸多用户经历来说，如果想在平时节约时间，把时间利用在提升资深能力等方面，使用本插件在每次您想要打开浏览器瞎逛时，都会被弹窗提醒这是瞎逛网站，渐渐的您就会养成不看瞎逛网站的习惯，这将在未来给你节省巨大的时间。
+
+- title: 休息一下
+  details: 插件在提示弹窗中提供了休息一会儿的按钮，在想休息一会儿时可以关闭弹窗，并在右侧提供休息倒计时，提示您时间紧迫，让您不会一直沉溺于瞎逛网站中。
+
+- title: 记录浏览瞎逛网站时长
+  details: 当关闭检测瞎逛网站时，会记录浏览瞎逛网站的时长，让您更清楚的了解您的时间花在哪些地方。
+
+- title: 持续维护
+  details: 本插件将免费持续维护，欢迎通过任何形式来支持我们，也欢迎有任何意见欢迎通过右上角的反馈跟我们联系，希望插件能够带给你一点帮助~
+
+footer: MIT Licensed | Copyright © 2021-present OBKoro1
 ---
-### 其他：
-
-* 来社区关注我,不错过最新文章：
-
-    [掘金](https://juejin.im/user/58714f0eb123db4a2eb95372/posts)
- 
-    [segmentfault](https://segmentfault.com/u/obkoro1/articles)
-    
-    [微信公众号](https://github.com/OBKoro1/articleImg_src/blob/master/juejin/1631b6f52f7e7015.jpeg?raw=true)
-
-* 开源项目:
-
-    [autoCommit](https://github.com/OBKoro1/autoCommit): 一键补充之前忘记提交commit, 填满你GitHub的commit记录。
-
-    [VsCode文件头部注释生成插件](https://github.com/OBKoro1/koro1FileHeader): 自动添加文件头部注释等各种自定义功能, 支持一键添加佛祖保佑永无BUG、神兽护体等注释图案。
-
-    [下载/替换 markdown中的图片](https://github.com/OBKoro1/markdown-img-down-site-change): 搜索目标文件夹中的markdown文件，找到目标图片，提供下载图片，替换图片链接的功能 - 用于处理图片外链失效的情况
-
-    [H5 notification浏览器桌面通知](https://github.com/OBKoro1/notification-Koro1): 浏览器桌面弹窗
-* [关于](/about.html)
-
