@@ -15,9 +15,9 @@ jobs:
           dst: 'gitee/OBKoro1'
           # dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           # gitee_id_rsa.pub 文件
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY_rsa_pub }}
+          # dst_key: ${{ secrets.GITEE_PRIVATE_KEY_rsa_pub }}
           # gitee_id_rsa 文件
-          # dst_key: ${{ secrets.GITEE_PRIVATE_KEY_rsa }}
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY_RSA }}
           # Github rsa文件
           # dst_key: ${{ secrets.PRIVATE_KEY_RSA_GITHUB }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
       # - name: Build Gitee Pages
       #   uses: yanglbme/gitee-pages-action@main
       #   with:
-      #     # 注意替换为你的 Gitee 用户名1
+      #     # 注意替换为你的 Gitee 用户名
       #     gitee-username: OBKoro1
       #     # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
       #     gitee-password: ${{ secrets.GITEE_PASSWORD }}
