@@ -14,7 +14,7 @@ jobs:
           src: 'github/OBKoro1'
           dst: 'gitee/OBKoro1'
           # dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          # gitee_id_rsa.pub 文件
+          # gitee_id_rsa.pub 文件1
           # dst_key: ${{ secrets.GITEE_PRIVATE_KEY_RSA_PUB }}
           # gitee_id_rsa 文件
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY_RSA }}
